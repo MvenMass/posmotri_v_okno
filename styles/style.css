@@ -55,16 +55,18 @@ ol {
   grid-template-columns: 1fr 400px;
   grid-column-gap: 30px;
   grid-template-rows: 534px;
-  padding: 115px 30px 0;
-  height: 534px;
+  padding: 215px 30px 0;
 }
 
 .result {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 16px;
+}
+
+.result__video-container {
+  position: relative;
 }
 
 .result__video {
