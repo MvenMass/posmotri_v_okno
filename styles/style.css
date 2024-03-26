@@ -68,11 +68,13 @@ ol {
 
 .result__video-container {
   position: relative;
+  width: 100%;
+  height: 100%
 }
 
 .result__video {
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   object-position: center;
 }
 
@@ -123,7 +125,7 @@ label .search-form__label-text:hover {
 
 .search-form__submit-button {
   align-self: end;
-  padding: 7px 68px;
+  padding: 7px 65px;
 }
 
 .content__details {
