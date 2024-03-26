@@ -53,7 +53,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: 25px;
+  gap: 15px;
 }
 
 .result__video-container {
