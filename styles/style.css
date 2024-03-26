@@ -40,16 +40,6 @@ ol {
   list-style: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-} 
-
 .content {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -80,7 +70,7 @@ ol {
 
 .search-form {
   display: flex;
-  gap: 25px;
+  gap: 32px;
 }
 
 .search-form__fieldset-title {
@@ -144,14 +134,18 @@ label .search-form__label-text:hover {
   color: #fff;
 }
 
+.search-form__checkbox-list {
+  padding-bottom: 8px;
+}
+
 .search-form__label:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .search-form__pseudo-checkbox {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     border: 1px solid #fff;
     margin-right: 5px;
     vertical-align: middle;
@@ -160,13 +154,12 @@ label .search-form__label-text:hover {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
   content: "";
-  position: absolute;
   display: block;
   inset: 0;
   margin: auto;
   color: #fff;
   width: 15px;
-  height: 15px;
+  height: 16px;
   background-color: #fff;
 }
 
