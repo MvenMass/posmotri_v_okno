@@ -74,7 +74,7 @@ ol {
   object-fit: cover;
   object-position: center;
   width: 711px;
-  height: 386px
+  height: 376px
 }
 
 
@@ -124,7 +124,7 @@ label .search-form__label-text:hover {
 
 .search-form__submit-button {
   align-self: end;
-  padding: 7px 65px;
+  padding: 6px 70px;
 }
 
 .content__details {
