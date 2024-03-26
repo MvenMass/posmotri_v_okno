@@ -152,6 +152,16 @@ label .search-form__label-text:hover {
     position: relative;
 }
 
+.visually-hidden {
+  display: none;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
   content: "";
   display: block;
