@@ -78,7 +78,7 @@ ol {
 
 .search-form {
   display: flex;
-  gap: 32px;
+  gap: 30px;
 }
 
 .search-form__fieldset {
@@ -267,6 +267,6 @@ button:focus {
 }
 
 .button:focus-visible {
-  border: 1px solid #FFFFFF;
-  outline: none;
+  outline: 1px solid #fff;
+  outline-offset: 2px;
 }
