@@ -155,7 +155,6 @@ label:has(:focus-visible) {
 .search-form__submit-button {
   align-self: end;
   padding: 6px 73px;
-  color: #fff;
 }
 
 .content__details {
@@ -261,7 +260,6 @@ li:last-child{
 
 .more-button {
   padding: 6px 135px;
-  color: #787878;
 }
 
 .button {
@@ -269,6 +267,7 @@ li:last-child{
   cursor: pointer;
   background-color: inherit;
   border: 1px solid #fff;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   
