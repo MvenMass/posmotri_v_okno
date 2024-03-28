@@ -133,8 +133,9 @@ label:has(:focus-visible) {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19px;
   height: 19px;
   margin-right: 5px;
@@ -145,17 +146,16 @@ label:has(:focus-visible) {
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   content: "";
   display: block;
-  inset: 0;
-  margin: auto;
   color: #fff;
   width: 15px;
-  height: 16px;
+  height: 15px;
   background-color: #fff;
 }
 
 .search-form__submit-button {
   align-self: end;
-  padding: 6px 70px;
+  padding: 6px 73px;
+  color: #fff;
 }
 
 .content__details {
@@ -182,8 +182,7 @@ label:has(:focus-visible) {
 .content__list {
   position: relative;
   overflow: auto;
-  max-height: 298px;
-  padding-bottom: 5px;
+  height: 298px;
 }
 
 .content__video-card {
@@ -206,7 +205,7 @@ label:has(:focus-visible) {
   background: #545050;
 }
 
-.content__card-link_current:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
@@ -255,17 +254,24 @@ label:has(:focus-visible) {
   padding-top: 5px;
 }
 
+li:last-child{
+  text-align: center;
+  padding-bottom: 3px;
+}
+
 .more-button {
-  padding: 11px 130px;
+  padding: 6px 135px;
+  color: #787878;
 }
 
 .button {
+  font-family: inherit;
   cursor: pointer;
   background-color: inherit;
-  color: #fff;
   border: 1px solid #fff;
   font-weight: 700;
   font-size: 18px;
+  
 }
 
 .button:active {
